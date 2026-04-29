@@ -9,8 +9,8 @@ console.log("Running t05_maths.js")
 Main Code
 ****************************/
 
-const output = document.getElementById("output");
-output.innerHTML = "Hello World!";
+const OUTPUT = document.getElementById("output");
+OUTPUT.innerHTML = "<h1>Hello World!</h1>";
 
 /****************************
 Functions
@@ -23,3 +23,4 @@ Functions
 
     </div>
 </body>
+</html>
