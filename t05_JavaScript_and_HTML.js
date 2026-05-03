@@ -15,12 +15,3 @@ OUTPUT.innerHTML = "<h1>Hello World!</h1>";
 /****************************
 Functions
 ****************************/
-
-<html lang="en">
-
-<body>
-    <div id="output">
-
-    </div>
-</body>
-</html>
