@@ -9,10 +9,15 @@ console.log("Running t06_functions.js")
 Main Code
 ****************************/
 
-welcome();
-const OUTPUT = document.getElementById("output");
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "<h1>Hello World!</h1>";
 
 /****************************
 Functions
 ****************************/
+
+function welcome() {
+    OUTPUT.innerHTML += "<h2>Welcome</h2>";
+};
+
+welcome();

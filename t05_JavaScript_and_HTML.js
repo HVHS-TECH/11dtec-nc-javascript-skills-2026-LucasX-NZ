@@ -9,7 +9,7 @@ console.log("Running t05_maths.js")
 Main Code
 ****************************/
 
-const OUTPUT = document.getElementById("output");
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "<h1>Hello World!</h1>";
 
 /****************************
