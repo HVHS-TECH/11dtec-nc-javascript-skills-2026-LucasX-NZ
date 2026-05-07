@@ -16,8 +16,11 @@ OUTPUT.innerHTML = "<h1>Hello World!</h1>";
 Functions
 ****************************/
 
-function welcome() {
+function displayWelcome(_name, _products) {
+    OUTPUT.innerHTML += "<h2>Welcome</h2>";
+    OUTPUT.innerHTML += "<h2>Welcome</h2>";
+    OUTPUT.innerHTML += "<h2>Welcome</h2>";
     OUTPUT.innerHTML += "<h2>Welcome</h2>";
 };
 
-welcome();
+displayWelcome();
