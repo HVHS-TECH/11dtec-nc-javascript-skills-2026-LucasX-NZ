@@ -20,3 +20,5 @@ function displayWelcome(_name, _products) {
     OUTPUT.innerHTML += "<h2>The products for " + _name + " are: " + _products + "</h2>";
 };
 
+displayWelcome("Alice", "Chocolate bar: $4, Chips: $3, Drink: $2.50");
+
