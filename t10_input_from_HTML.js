@@ -13,8 +13,8 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "<h1>Hello World!</h1>";
 
 <form>
-    <input></input>
-    <input></input>
+    <input type="text">
+    <input type="submit">
 </form>
 
 /****************************
