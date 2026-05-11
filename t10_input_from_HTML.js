@@ -1,7 +1,7 @@
 /****************************
 Name of task:
 ****************************/
-console.log("Running t06_functions.js")
+console.log("Running t10_input_from_HTML.js")
 
 //Variables
 
