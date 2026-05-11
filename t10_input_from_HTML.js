@@ -14,7 +14,7 @@ OUTPUT.innerHTML = "<h1>Hello World!</h1>";
 
 <form>
     <label for="formname">Name:</label>
-    <input type="text" placeholder="name" name="formname">
+    <input type="text" name="formname">
     <input type="submit">
 </form>
 
