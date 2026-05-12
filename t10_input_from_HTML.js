@@ -9,8 +9,7 @@ console.log("Running t10_input_from_HTML.js")
 Main Code
 ****************************/
 
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML = "<h1>Hello World!</h1>";
+
 
 const FORMNAME = document.getElementById("formedname");
 let name = FORMNAME.value;
@@ -21,7 +20,8 @@ Functions
 
 function getName() {
     const FORMNAME = document.getElementById("formedname");
-    let username = FORMNAME.value;
-    OUTPUT.innerHTML = "<h2>Hello " + username + "!</h2>";
+    let name = FORMNAME.value;
+    OUTPUT.innerHTML = "<h2>Hello "+name+"!</h2>";
 }
 
+ getName()
