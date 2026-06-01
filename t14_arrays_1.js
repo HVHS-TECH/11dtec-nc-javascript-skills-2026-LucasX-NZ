@@ -59,4 +59,6 @@ OUTPUT.innerHTML += "<p>1, 2, 3, 4, 5</p>";
 
 let Array = [1, 2, 3, 4, 5];
 
-OUTPUT.innerHTML += "<p>The first item in the array is " + Array[0] + "</p>";
+let choice = CHOOSE_FIELD.value;
+
+OUTPUT.innerHTML += "You choose " + choice + "</p>";
