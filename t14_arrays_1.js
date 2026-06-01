@@ -54,3 +54,9 @@ OUTPUT.innerHTML += "<p>You have " + dollars + " dollars</p>";
 
 OUTPUT.innerHTML += "<p>The current year is " + year + "</p>";
 }
+
+OUTPUT.innerHTML += "<p>1, 2, 3, 4, 5</p>";
+
+let Array = [1, 2, 3, 4, 5];
+
+OUTPUT.innerHTML += "<p>The first item in the array is " + Array[0] + "</p>";
