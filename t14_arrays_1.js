@@ -59,6 +59,6 @@ OUTPUT.innerHTML += "<p>1, 2, 3, 4, 5</p>";
 
 let Array = [1, 2, 3, 4, 5];
 
-let choice = CHOOSE_FIELD.value;
+let choice = nuCHOOSE_FIELD.value;
 
 OUTPUT.innerHTML += "You choose " + choice + "</p>";
