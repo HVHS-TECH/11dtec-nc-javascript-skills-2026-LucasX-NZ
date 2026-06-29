@@ -36,6 +36,7 @@ dollars = Number(document.getElementById("moneyInput").value);
 age = Number(document.getElementById("ageInput").value);
 username = (document.getElementById("usernameInput").value);
 
+
 if (dollars < 4) {
 console.log("You're broke");
 }
