@@ -31,7 +31,7 @@ function Welcome() {
 OUTPUT.innerHTML += "<p>A chocolate bar costs $4</p>";
 }
 
-function start() { 
+function start() { f
 dollars = Number(document.getElementById("moneyInput").value);
 age = Number(document.getElementById("ageInput").value);
 username = (document.getElementById("usernameInput").value);
