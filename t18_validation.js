@@ -31,7 +31,7 @@ function Welcome() {
 OUTPUT.innerHTML += "<p>A chocolate bar costs $4</p>";
 }
 
-function start() { f
+function start() { 
 dollars = Number(document.getElementById("moneyInput").value);
 age = Number(document.getElementById("ageInput").value);
 username = (document.getElementById("usernameInput").value);
@@ -60,6 +60,6 @@ OUTPUT.innerHTML += "<p>1, 2, 3, 4, 5</p>";
 
 let Array = [1, 2, 3, 4, 5];
 
-let choice = nuCHOOSE_FIELD.value;
+let choice = CHOOSE_FIELD.value;
 
 OUTPUT.innerHTML += "You choose " + choice + "</p>";
